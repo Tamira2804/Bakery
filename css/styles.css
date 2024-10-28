@@ -307,18 +307,51 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
-
+.who-makes {
+  width: 570px;
+}
 .about-us-wrapper > .who-makes > .who-makes-title {
   text-align: start;
   margin-bottom: 20px;
 }
 
-.image-food {
-  width: 50%;
-  border: #ff8126 solid 1px;
-}
 .mission {
   font-weight: 500;
+}
+
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+.advantage-item {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+}
+
+.adv-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--accent);
+  padding: 6px;
+}
+.advantage-item > .icon {
+  stroke-width: 0;
+  stroke: var(--white);
+  fill: var(--accent);
+}
+
+.advantage-item > p {
+  font-size: 16px;
+}
+
+.image-food {
+  width: 50%;
+  background-image: url(../images/WhoMakesFood.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /*--Our Brands--*/
