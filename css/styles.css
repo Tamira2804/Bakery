@@ -280,12 +280,12 @@ h2 {
 }
 
 /*--Advantages--*/
-.advantages-list {
+.why-choose-us-list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-.advantage-item {
+.why-choose-us-item {
   width: 210px;
 }
 
@@ -294,11 +294,39 @@ h2 {
   font-size: 25px;
   margin-bottom: 10px;
 }
-
-.adv-icon {
+.why-choose-us-item > .icon {
   display: block;
   width: 48px;
   height: 48px;
   fill: currentColor;
   margin-bottom: 20px;
 }
+
+/*--About Us--*/
+.about-us-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us-wrapper > .who-makes > .who-makes-title {
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.image-food {
+  width: 50%;
+  border: #ff8126 solid 1px;
+}
+.mission {
+  font-weight: 500;
+}
+
+/*--Our Brands--*/
+
+/*--Surprise--*/
+
+/*--Instagram--*/
+
+/*--Tell Friend--*/
+
+/*--Footer--*/
