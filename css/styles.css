@@ -224,10 +224,12 @@ h2 {
 }
 
 /*--Offers--*/
+
 .offers h2 {
   font-weight: 700;
   font-size: 40px;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .offers span {
@@ -244,6 +246,35 @@ h2 {
   background-color: var(--bg-color-secondary);
   border-radius: 20px;
 }
-.tumb {
-  padding: 20px;
+
+.image {
+  display: block;
+}
+
+.description-box {
+  padding: 20px 20px 30px 20px;
+  text-align: center;
+}
+
+.offer-price {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.new-price {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.old-price {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-color-secondary);
+}
+
+.offer-btn {
+  width: 100%;
 }
